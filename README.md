@@ -37,4 +37,4 @@ Se requiere realizar una aplicación móvil para los usuarios de un banco donde 
 
 ## Ruta de la App
 
-Para visualizar el diseño de la app, acceda al siguiente enlace: [Banca créditos – Figma](https://www.figma.com)
+Para visualizar el diseño de la app, acceda al siguiente enlace: [Banca créditos – Figma](https://www.figma.com/file/4igCjMuvTAzjjwbxsuqbrH/Banca-créditos?type=design&node-id=36-3002&mode=design&t=qIpOz9x0cC9pj6gQ-0)
