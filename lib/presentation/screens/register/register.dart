@@ -22,10 +22,25 @@ class RegistroScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text(
-                      "Banca créditos",
-                      style:
-                          txtStyle.copyWith(color: Colors.black, fontSize: 28),
+                    Container(
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset(
+                            'assets/login/spinner-two.png',
+                            scale: 4,
+                          ),
+                          const SizedBox(
+                            width: 10,
+                          ),
+                          Text(
+                            "Banca créditos",
+                            style: txtStyle.copyWith(
+                                color: Colors.black, fontSize: 28),
+                          ),
+                        ],
+                      ),
                     ),
                     ListTile(
                       titleAlignment: ListTileTitleAlignment.center,

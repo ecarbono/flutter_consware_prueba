@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_consware_prueba/data/model/model.usuario.dart';
-import 'package:flutter_consware_prueba/presentation/screens/login/register.user.dart.dart';
+import 'package:flutter_consware_prueba/presentation/screens/register/register.dart';
 import 'package:flutter_consware_prueba/presentation/screens/register/registro.exitoso.dart';
 
 class ProviderRegiserUser with ChangeNotifier {
@@ -77,7 +77,7 @@ class ProviderRegiserUser with ChangeNotifier {
     Navigator.push(
       context,
       MaterialPageRoute<void>(
-        builder: (BuildContext context) => RegisterScreen(),
+        builder: (BuildContext context) => const RegistroScreen(),
       ),
     );
   }
