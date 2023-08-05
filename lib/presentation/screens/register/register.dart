@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_consware_prueba/presentation/screens/login/login.user.dart';
 import 'package:flutter_consware_prueba/providers/register/provider.register.dart';
 import 'package:flutter_consware_prueba/styles/styles_onboarding.dart';
 import 'package:provider/provider.dart';
@@ -224,7 +225,13 @@ class RegistroScreen extends StatelessWidget {
                           ),
                           GestureDetector(
                             onTap: () {
-                              Navigator.pop(context);
+                              Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute<void>(
+                                  builder: (BuildContext context) =>
+                                      const LoginScreenUser(),
+                                ),
+                              );
                             },
                             child: Text(
                               "Inicia sesión",

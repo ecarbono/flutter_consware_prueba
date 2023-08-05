@@ -71,7 +71,7 @@ class OnboardingScreen extends StatelessWidget {
                 backgroundColor: MaterialStatePropertyAll(colorBtnIngresar),
               ),
               onPressed: () {
-                Navigator.push(
+                Navigator.pushReplacement(
                   context,
                   MaterialPageRoute<void>(
                     builder: (BuildContext context) => const LoginScreenUser(),
@@ -93,7 +93,7 @@ class OnboardingScreen extends StatelessWidget {
                 backgroundColor: MaterialStatePropertyAll(colorBtnRegister),
               ),
               onPressed: () {
-                Navigator.push(
+                Navigator.pushReplacement(
                   context,
                   MaterialPageRoute<void>(
                     builder: (BuildContext context) => const RegistroScreen(),

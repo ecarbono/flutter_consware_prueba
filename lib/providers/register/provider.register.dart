@@ -74,7 +74,7 @@ class ProviderRegiserUser with ChangeNotifier {
   }
 
   ontapRegsiter({required BuildContext context}) {
-    Navigator.push(
+    Navigator.pushReplacement(
       context,
       MaterialPageRoute<void>(
         builder: (BuildContext context) => const RegistroScreen(),
